@@ -3,7 +3,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture("dataset/examples-video/test.mp4")  # TODO FALTA VIDEO
+cap = cv2.VideoCapture("dataset/examples-video/test.mp4")
 
 while (cap.isOpened()):
     ret, frame = cap.read()

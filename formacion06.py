@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture("dataset/examples-video/test.mp4")  # TODO FALTA VIDEO
+cap = cv2.VideoCapture("dataset/examples-video/test.mp4")
 
 while (cap.isOpened()):
     ret, frame = cap.read()
