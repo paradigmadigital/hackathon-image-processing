@@ -3,7 +3,7 @@ import cv2
 
 cap = cv2.VideoCapture(0)
 
-face_cascade = cv2.CascadeClassifier('libraries/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('libraries/data/haarcascades/haarcascade_frontalface_default.xml')
 
 while(True):
     # Capture frame-by-frame
