@@ -12,6 +12,7 @@ que todos tienen Python instalado en el equipo.
     sudo apt-get -y install libjpeg-dev libpng-dev
     sudo apt-get -y install libsm6 libxrender1 libfontconfig1
     sudo apt-get -y install python-dev python-tk python-setuptools python-virtualenv
+    sudo easy_install pip
 
 Crearemos un entorno virtual para instalar las librerías en la carpeta de este repositorio
 
@@ -28,7 +29,7 @@ Los `requirements.txt` intentarán instalar la versión `opencv-python==3.4.0.12
 Listado de errores comunes tras la instalación:
 
 * En Ubuntu con KDE instalar desde pip la librería opencv-python no funciona
-* No instalar desde aptutitude libopencv-dev python-opencv porque instala la versión 2.4 y algunos ejemplos no funcionarán o se comportarán del mismo modo
+* No instalar desde aptitude libopencv-dev python-opencv porque instala la versión 2.4 y algunos ejemplos no funcionarán o se comportarán del mismo modo
 * [moveToThread](https://stackoverflow.com/questions/46449850/how-to-fix-the-error-qobjectmovetothread-in-opencv-in-python)
 
 #### Linux/Windows Opción 2.
